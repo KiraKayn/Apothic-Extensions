@@ -1,0 +1,92 @@
+[20márc.2026 19:50:42.567] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\isuva\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, apothic_extensions, --all, --output, E:\a\Apothic-Extensions\src\generated\resources, --existing, E:\a\Apothic-Extensions\src\main\resources, --mixin.config, apothic_extensions.mixins.json]
+[20márc.2026 19:50:42.579] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[20márc.2026 19:50:42.830] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file E:\a\Apothic-Extensions\run-data\config\fml.toml is not correct. Correcting
+[20márc.2026 19:50:42.832] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[20márc.2026 19:50:42.833] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[20márc.2026 19:50:42.833] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[20márc.2026 19:50:42.834] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[20márc.2026 19:50:42.875] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[20márc.2026 19:50:42.990] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/isuva/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23129!/ Service=ModLauncher Env=CLIENT
+[20márc.2026 19:50:43.003] [main/INFO] [fallen.bootstrap/]: Prepare to scan resources.
+[20márc.2026 19:50:43.006] [main/INFO] [fallen.bootstrap/]: End scanning.
+[20márc.2026 19:50:43.007] [main/INFO] [fallen.bootstrap/]: Prepare to sort fallen patches.
+[20márc.2026 19:50:43.009] [main/INFO] [fallen.bootstrap/]: Sorted 0 patch entries.
+[20márc.2026 19:50:43.009] [main/INFO] [fallen.bootstrap/]: End registering fallen patch entries.
+[20márc.2026 19:50:43.472] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\isuva\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20márc.2026 19:50:43.477] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\isuva\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20márc.2026 19:50:43.482] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\isuva\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[20márc.2026 19:50:43.487] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\isuva\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[20márc.2026 19:50:44.039] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras. Using Mod File: C:\Users\isuva\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-forge\0.4.1\5c35573a7b76103724799ca1174a69699b8a9aec\mixinextras-forge-0.4.1.jar
+[20márc.2026 19:50:44.039] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[20márc.2026 19:50:45.022] [main/INFO] [fallen.bootstrap/]: Creating delegating transformer.
+[20márc.2026 19:50:47.465] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20márc.2026 19:50:47.512] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\isuva\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, apothic_extensions, --all, --output, E:\a\Apothic-Extensions\src\generated\resources, --existing, E:\a\Apothic-Extensions\src\main\resources]
+[20márc.2026 19:50:47.989] [main/INFO] [mixin/]: Remapping refMap fallen_gems_affixes.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:47.991] [main/INFO] [mixin/]: Remapping refMap attributeslib.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.137] [main/INFO] [mixin/]: Remapping refMap moonlight-common-refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.139] [main/INFO] [mixin/]: Remapping refMap moonlight-forge-refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.140] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.142] [main/INFO] [mixin/]: Remapping refMap apotheosis.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.146] [main/INFO] [mixin/]: Remapping refMap player-animation-lib-minecraft_common-refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.148] [main/INFO] [mixin/]: Remapping refMap irons_spellbooks.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.151] [main/INFO] [mixin/]: Remapping refMap fallen_gems_affixes.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.152] [main/INFO] [mixin/]: Remapping refMap attributefix.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.153] [main/INFO] [mixin/]: Remapping refMap caelus.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.154] [main/INFO] [mixin/]: Remapping refMap dummmmmmy-common-refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.157] [main/INFO] [mixin/]: Remapping refMap curios.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.158] [main/INFO] [mixin/]: Remapping refMap placebo.refmap.json using E:\a\Apothic-Extensions\build\createSrgToMcp\output.srg
+[20márc.2026 19:50:48.302] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20márc.2026 19:50:48.360] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20márc.2026 19:50:49.038] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[20márc.2026 19:50:49.058] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[20márc.2026 19:50:49.059] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20márc.2026 19:50:49.060] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20márc.2026 19:50:49.067] [main/WARN] [mixin/]: Error loading class: com/hollingsworth/arsnouveau/common/items/SpellCrossbow (java.lang.ClassNotFoundException: com.hollingsworth.arsnouveau.common.items.SpellCrossbow)
+[20márc.2026 19:50:49.085] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/client/tooltip/AttributeTooltips (java.lang.ClassNotFoundException: org.violetmoon.quark.content.client.tooltip.AttributeTooltips)
+[20márc.2026 19:50:49.759] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [apothic_extensions]
+[20márc.2026 19:50:49.928] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20márc.2026 19:50:51.132] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[20márc.2026 19:50:52.868] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20márc.2026 19:50:52.869] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[20márc.2026 19:50:52.981] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[20márc.2026 19:50:56.137] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[20márc.2026 19:50:56.855] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[20márc.2026 19:50:56.855] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[20márc.2026 19:50:58.440] [modloading-worker-0/INFO] [net.kayn.fallen_gems_affixes.FallenGemsAffixes/]: Loading Fallen Gems & Affixes
+[20márc.2026 19:50:58.635] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[20márc.2026 19:50:58.638] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[20márc.2026 19:50:58.779] [modloading-worker-0/INFO] [mixin/]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/network/chat/Component;Z)V
+[20márc.2026 19:50:58.780] [modloading-worker-0/INFO] [mixin/]:   BeforeConstant found INTEGER constant: value = 0, intValue = null
+[20márc.2026 19:50:58.780] [modloading-worker-0/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 0
+[20márc.2026 19:50:58.780] [modloading-worker-0/INFO] [mixin/]:       BeforeConstant found Insn [ICONST_0] 
+[20márc.2026 19:50:58.780] [modloading-worker-0/INFO] [mixin/]:   BeforeConstant found INTEGER constant: value = 60, intValue = null
+[20márc.2026 19:50:58.780] [modloading-worker-0/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 1
+[20márc.2026 19:50:58.780] [modloading-worker-0/INFO] [mixin/]:       BeforeConstant found IntInsn 60
+[20márc.2026 19:50:58.901] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.attributeslib/COREMODLOG]: Patching EffectRenderingInventoryScreen#renderEffects
+[20márc.2026 19:50:58.986] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[20márc.2026 19:50:58.999] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file E:\a\Apothic-Extensions\run-data\config\dummmmmmy-common.toml is not correct. Correcting
+[20márc.2026 19:50:59.003] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scarecrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20márc.2026 19:50:59.003] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scarecrow.mobs_whitelist was corrected from null to its default, []. 
+[20márc.2026 19:50:59.004] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scarecrow.mobs_blacklist was corrected from null to its default, []. 
+[20márc.2026 19:50:59.004] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key scarecrow.scare_radius was corrected from null to its default, 12. 
+[20márc.2026 19:50:59.005] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20márc.2026 19:50:59.006] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.DPS_mode was corrected from null to its default, DYNAMIC. 
+[20márc.2026 19:50:59.006] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.disable_equipment_damage was corrected from null to its default, true. 
+[20márc.2026 19:50:59.006] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dummy_decoy was corrected from null to its default, false. 
+[20márc.2026 19:50:59.007] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.xp_per_damage_on_hit was corrected from null to its default, 0.0. 
+[20márc.2026 19:50:59.007] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.boss_health_color was corrected from null to its default, YELLOW. 
+[20márc.2026 19:50:59.007] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.boss_health was corrected from null to its default, 200. 
+[20márc.2026 19:50:59.009] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs_damage_numbers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20márc.2026 19:50:59.009] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs_damage_numbers.damage_mode was corrected from null to its default, NONE. 
+[20márc.2026 19:50:59.009] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mobs_damage_numbers.healing_mode was corrected from null to its default, NONE. 
+[20márc.2026 19:50:59.269] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file E:\a\Apothic-Extensions\run-data\config\moonlight-client.toml is not correct. Correcting
+[20márc.2026 19:50:59.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[20márc.2026 19:50:59.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.merge_dynamic_packs was corrected from null to its default, true. 
+[20márc.2026 19:50:59.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.lazy_map_upload was corrected from null to its default, true. 
+[20márc.2026 19:50:59.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.maps_mipmap was corrected from null to its default, 3. 
+[20márc.2026 19:50:59.271] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.consistent_entity_renderer_shading was corrected from null to its default, NO_GUI. 
+[20márc.2026 19:51:00.521] [main/INFO] [Moonlight/]: Initialized block sets in 12ms
+[20márc.2026 19:51:01.251] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/isuva/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23192!/assets/.mcassetsroot' uses unexpected schema
+[20márc.2026 19:51:01.252] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/isuva/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_official_1.20.1/forge-1.20.1-47.4.0_mapped_official_1.20.1-recomp.jar%23192!/data/.mcassetsroot' uses unexpected schema
+[20márc.2026 19:51:01.744] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 0 ms
+[20márc.2026 19:51:01.750] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 0, old count: 0, new count: 1, removed stale: 0, written: 0

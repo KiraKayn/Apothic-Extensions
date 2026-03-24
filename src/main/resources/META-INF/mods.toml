@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+
+license="LGPL-2.1-or-later"
+issueTrackerURL=""
+showAsResourcePack=false
+
+[[mods]]
+modId="apothic_extensions"
+version="${version}"
+displayName="Apothic Extensions"
+displayURL=""
+logoFile=""
+credits=""
+authors="Kayn"
+description='''
+A mod that adds some new features to Apotheosis and AttributesLib
+  '''
+
+[[dependencies.apothic_extensions]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.apothic_extensions]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.apothic_extensions]]
+modId="apotheosis"
+mandatory=true
+versionRange="[1.0,)"
+ordering="AFTER"
+side="BOTH"
