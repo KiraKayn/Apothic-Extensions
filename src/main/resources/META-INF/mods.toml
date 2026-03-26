@@ -11,7 +11,7 @@ version="${version}"
 displayName="Apothic Extensions"
 displayURL=""
 logoFile=""
-credits=""
+credits="me"
 authors="Kayn"
 description='''
 A mod that adds some new features to Apotheosis and AttributesLib

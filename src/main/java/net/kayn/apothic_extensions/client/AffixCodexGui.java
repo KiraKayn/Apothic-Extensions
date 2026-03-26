@@ -96,8 +96,17 @@ public class AffixCodexGui implements Renderable, GuiEventListener {
             }
         };
 
-        this.rarities = RarityRegistry.INSTANCE.getOrderedRarities().stream().filter(h -> h.isBound()).collect(Collectors.toList());
-        this.categories = LootCategory.VALUES.stream().filter(c -> !c.isNone()).collect(Collectors.toList());
+        this.rarities = RarityRegistry.INSTANCE.getOrderedRarities().stream()
+                .filter(DynamicHolder::isBound)
+                .filter(h -> {
+                    String id = RarityRegistry.INSTANCE.getKey(h.get()).toString();
+                    return !id.contains("ancient") || isAncientReforgeLoaded();
+                })
+                .collect(Collectors.toList());
+
+        this.categories = LootCategory.VALUES.stream()
+                .filter(c -> !c.isNone())
+                .collect(Collectors.toList());
 
         affixScrollOffset = savedAffixScroll;
         if (savedCategoryName != null) selectedCategory = LootCategory.byId(savedCategoryName);
@@ -124,6 +133,10 @@ public class AffixCodexGui implements Renderable, GuiEventListener {
         } catch (Exception e) {
             return null;
         }
+    }
+
+    private static boolean isAncientReforgeLoaded() {
+        return net.minecraftforge.fml.ModList.get().isLoaded("ancientreforging");
     }
 
     private void refreshAffixes() {
