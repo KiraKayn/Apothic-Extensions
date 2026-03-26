@@ -47,7 +47,7 @@ public class AttributesGuiSearchMixin {
         AttributesGuiHooks.toggleVisibility(open, leftPos, topPos);
     }
 
-    @Inject(method = "render", at = @At("RETURN"))
+    @Inject(method = "render", at = @At("RETURN"), remap = true)
     private void apothext$render(GuiGraphics gfx, int mouseX, int mouseY, float partialTicks, CallbackInfo ci) {
         if (!open) return;
         if (AttributesGuiHooks.nameBox != null) {
